@@ -2,7 +2,7 @@
 
 ---
 
-# Alex Matthews - Portfolio & Agency Template
+# Muhammad Sameer
 
 ## Project Overview
 The **Alex Matthews Portfolio & Agency Template** is a single-page application designed to showcase the work and services of Alex Matthews, a passionate designer focused on crafting meaningful, user-centered digital experiences. This template provides a clean and modern design that highlights projects, skills, and services, enabling clients to take a closer look at Alex's work and get in touch for potential projects.
