@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Alex Matthews</title>
+    <meta name="description" content="Get in touch with Alex Matthews for your next design project.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><a href="index.html">ALEX MATTHEWS</a></h1>
+                </div>
+                <nav class="nav">
+                    <div class="nav-toggle" id="navToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html#intro">Intro</a></li>
+                        <li><a href="index.html#work">Work</a></li>
+                        <li><a href="index.html#experience">Experience</a></li>
+                        <li><a href="index.html#skills">Skills</a></li>
+                        <li><a href="index.html#references">References</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1>Let's work together</h1>
+                <p>Ready to bring your ideas to life? I'd love to hear about your project and discuss how we can create something amazing together.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in touch</h2>
+                    <p>Whether you have a specific project in mind or just want to explore possibilities, I'm here to help turn your vision into reality.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p>hello@alexmatthews.design</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3>Response Time</h3>
+                            <p>Usually within 24 hours</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3>Location</h3>
+                            <p>Available worldwide (Remote)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="availability-status">
+                        <div class="status-indicator"></div>
+                        <span>Currently available for new projects</span>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <select id="project-type" name="project-type">
+                                <option value="">Select a project type</option>
+                                <option value="landing-page">Landing Page Design</option>
+                                <option value="full-website">Full Website Design</option>
+                                <option value="app-design">App Design</option>
+                                <option value="branding">Branding & Identity</option>
+                                <option value="consultation">Design Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-5k">Under $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-plus">$25,000+</option>
+                                <option value="discuss">Let's discuss</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="timeline">Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select timeline</option>
+                                <option value="asap">ASAP</option>
+                                <option value="1-month">Within 1 month</option>
+                                <option value="2-3-months">2-3 months</option>
+                                <option value="3-plus-months">3+ months</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, goals, and any specific requirements..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What's your design process?</h3>
+                    <p>I follow a structured approach: Discovery & Research → Strategy & Planning → Design & Prototyping → Testing & Refinement → Development Handoff. Each project is tailored to your specific needs and timeline.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How long does a typical project take?</h3>
+                    <p>Timeline varies by project scope. Landing pages typically take 2-3 weeks, full websites 4-8 weeks, and app designs 6-12 weeks. I'll provide a detailed timeline during our initial consultation.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Do you work with international clients?</h3>
+                    <p>Absolutely! I work with clients worldwide and am experienced in remote collaboration. I'm flexible with time zones and use modern tools to ensure smooth communication throughout the project.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What's included in your design packages?</h3>
+                    <p>All packages include initial consultation, design concepts, revisions, final files, and basic support. Specific deliverables vary by package - I'll provide a detailed scope during our discussion.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Do you offer ongoing support?</h3>
+                    <p>Yes! I provide post-launch support and can help with updates, maintenance, and future enhancements. We can discuss ongoing support options based on your needs.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What if I need changes after the project?</h3>
+                    <p>Minor adjustments are included in the initial package. For larger changes or new features, I offer flexible hourly rates or can create a new project scope based on your requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Alex Matthews</h3>
+                    <p>PRODUCT DESIGNER | WEB DESIGNER</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>NAVIGATION</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="blog/index.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>CASE STUDIES</h4>
+                        <ul>
+                            <li><a href="case-studies/ai-powered-assistant.html">Project 1</a></li>
+                            <li><a href="case-studies/new-brand-look.html">Project 2</a></li>
+                            <li><a href="case-studies/ai-meditation.html">Project 3</a></li>
+                            <li><a href="case-studies/innovative-booking.html">Project 4</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>SOCIAL MEDIA</h4>
+                        <ul>
+                            <li><a href="#">X/Twitter</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Threads</a></li>
+                            <li><a href="#">TikTok</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Toni Jarvinen @tonjrv</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
